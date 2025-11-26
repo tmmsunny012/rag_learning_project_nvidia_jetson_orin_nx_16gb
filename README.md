@@ -68,8 +68,11 @@ python main.py
 python src/rag_system.py --pdf-dir ./data --rebuild --interactive
 
 # Remote Ollama (Jetson Orin NX)
-python src/rag_system.py --pdf-dir ./data --rebuild --interactive --ollama-host http://192.168.178.124:11434
+# Replace <YOUR_JETSON_IP> with your Jetson's actual IP address (e.g., 192.168.1.100)
+python src/rag_system.py --pdf-dir ./data --rebuild --interactive --ollama-host http://<YOUR_JETSON_IP>:11434
 ```
+
+> **Note:** To find your Jetson's IP address, run `hostname -I` on the Jetson terminal.
 
 ## Project Structure
 
