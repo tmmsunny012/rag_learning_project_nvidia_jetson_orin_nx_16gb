@@ -1,0 +1,2 @@
+# This file ensures the vector_db_v2/ directory is tracked by git
+# Vector database files will be ignored by .gitignore
